@@ -21,6 +21,7 @@ set $term kitty
 # set $menu dmenu_path | wmenu | xargs swaymsg exec --
 set $menu rofi -show drun
 set $powermenu ~/.config/rofi/powermenu/powermenu.sh
+set $mon_screenshot ~/.config/sway/scripts/mon_screenshot.sh
 
 ### Output configuration
 #
@@ -83,9 +84,7 @@ output DP-1 pos 1920 0 res 1920x1080
     bindsym $mod+d exec $menu
     bindsym $mod+Shift+p exec $powermenu
 
-    # Other programs
-    bindsym Print exec grim -c -o "$(hyprctl activeworkspace -j | jq -r '.monitor')"
-
+    bindsym Print exec $mon_screenshot
 
     # Drag floating windows by holding down $mod and left mouse button.
     # Resize them with right mouse button + $mod.
@@ -246,6 +245,7 @@ client.unfocused          $darkgreen $darkgreen $black $darkgreen $darkgreen
 client.urgent             #fb4943 #282828 #fbf1c7 #282828 #fb4943
 client.placeholder        #1d2021 #282828 #fbf1c7 #282828 #1d2021
 
+title_align center
 mouse_warping container
 focus_follows_mouse always
 gaps inner 10
