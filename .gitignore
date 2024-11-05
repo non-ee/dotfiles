@@ -1,5 +1,5 @@
 *
-!sway/*
-!rofi/
-!waybar/
-!fastfetch/
+sway/
+rofi/
+waybar/
+fastfetch/
