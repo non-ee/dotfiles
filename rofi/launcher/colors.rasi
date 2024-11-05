@@ -1,0 +1,12 @@
+* {
+    BG:    #0d0a1aff;    // Dark background with a hint of purple
+    BGA:   #ff007cff;    // Neon pink for active backgrounds
+    FG:    #00eaffff;    // Bright cyan for foreground text
+    FGA:   #ff007cff;    // Neon pink accent for emphasized foreground text
+    BDR:   #151021ff;    // Slightly lighter dark color for borders
+    SEL:   #1f1147ff;    // Dark purple selection background
+    UGT:   #ff00ccff;    // Bright magenta for urgent highlights
+    IMG:   #ffd700ff;    // Cyberpunk yellow for images or highlights
+    OFF:   #3e3b4fff;    // Muted purple-gray for inactive elements
+    ON:    #39ff14ff;    // Neon green for active or enabled elements
+}
