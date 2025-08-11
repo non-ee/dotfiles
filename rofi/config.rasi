@@ -1,4 +1,4 @@
-@theme "/home/babyshark/.config/rofi/launcher/launcher.rasi"
+@theme "/home/babyshark/.config/rofi/launcher.rasi"
 
 configuration {
     show-icons: true;

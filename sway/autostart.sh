@@ -1,7 +1,8 @@
 #!/usr/bin/env bash
 
-brightnessctl set 30%
-fcitx5 -r
+export PATH=$HOME/.local/bin:$PATH
+
+fcitx5 &> /dev/null &
 
 blueman-manager
-nm-applet
+autotiling &> /dev/null &
