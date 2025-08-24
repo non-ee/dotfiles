@@ -27,7 +27,8 @@ set $mon_screenshot ~/.config/sway/scripts/mon_screenshot.sh
 #
 # Default wallpaper (more resolutions are available in /usr/share/backgrounds/sway/)
 # output * bg /usr/share/backgrounds/sway/Sway_Wallpaper_Blue_1920x1080.png fill
-output * bg $HOME/.config/sway/wallpaper.jpg fill
+# output * bg $HOME/.config/sway/wallpaper.jpg fill
+output * bg $HOME/Pictures/Walls/black-and-white-3840x2160-21293.jpg fill
 output eDP-1 pos 0 0 res 1920x1080
 output DP-1 pos 1920 0 res 1920x1080
 #
